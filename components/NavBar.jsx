@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import Link from "next/link";
-import Image from "next/image";
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (

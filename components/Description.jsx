@@ -1,5 +1,3 @@
-import Image from "next/Image";
-import react from "react";
 import { getPortalImages } from "../lib/prisma/home";
 
 export default async function Description() {
